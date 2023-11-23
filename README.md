@@ -2,7 +2,9 @@
 
 ## Description
 
-Welcome to the IRC project at School 42. This project involves implementing an IRC (Internet Relay Chat) client and server using the C++ programming language. The goal is to create a networked instant messaging system that enables communication between multiple users through channels.
+Welcome to the IRC project at School 42. </b>
+A project make in collaboration with @Alessio-scat and @Lucas-Ve
+This project involves implementing an IRC (Internet Relay Chat) client and server using the C++ programming language. The goal is to create a networked instant messaging system that enables communication between multiple users through channels.
 
 ## Features
 
@@ -29,8 +31,8 @@ Welcome to the IRC project at School 42. This project involves implementing an I
 ## Installation
 
 ```bash
-git clone [URL REPO] IRC
-cd IRC/
+git clone https://github.com/axelvag/IRC_server.git IRC_server
+cd IRC_server/
 ```
 
 ## Compilation and Execution
@@ -41,3 +43,31 @@ $ make
 $ ./ircserver [port between 2000 and 60000] [password]
 ```
 Now the server waits for client connections !
+
+## Connect Client
+
+We use two different logiciel to simulate a client:
+- HexChat (It provides a graphical interface that makes it easy to join channels, participate in discussions, and manage various aspects of the IRC experience)
+- NetCat/nc (Is a versatile networking utility commonly used for reading from and writing to network connections using TCP in command line, less visual)
+
+### HEXCHAT
+> Start logiciel
+> Enter a Nickname and Username
+> Create a new Network
+> Edit him: 127.0.0.1/[same PORT than the ircserver]
+> Put the same password than the ircserver
+> Then connect
+> enter "/join #channel"
+
+### NETCAT
+```bash
+$ nc localhost [port]
+$ PASS [password]
+$ NICK [name]
+$ USER [name]
+$ JOIN #channel
+```
+
+TADAMMMMM !!! You are in your channel, you can talk now.
+
+To see our subject clic [here](https://github.com/fpetras/42-subjects/blob/master/ft_irc.en.pdf)
