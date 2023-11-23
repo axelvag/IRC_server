@@ -3,7 +3,7 @@
 ## Description
 
 Welcome to the IRC project at School 42. </b>
-A project make in collaboration with @Alessio-scat and @Lucas-Ve
+A project make in collaboration with [@Alessio-scat](https://github.com/Alessio-scat) and [@Lucas-Ve](https://github.com/Lucas-Ve)
 This project involves implementing an IRC (Internet Relay Chat) client and server using the C++ programming language. The goal is to create a networked instant messaging system that enables communication between multiple users through channels.
 
 ## Features
