@@ -51,12 +51,12 @@ We use two different logiciel to simulate a client:
 - NetCat/nc (Is a versatile networking utility commonly used for reading from and writing to network connections using TCP in command line, less visual)
 
 ### HEXCHAT
-> Start logiciel
-> Enter a Nickname and Username
-> Create a new Network
-> Edit him: 127.0.0.1/[same PORT than the ircserver]
-> Put the same password than the ircserver
-> Then connect
+> Start logiciel </b>
+> Enter a Nickname and Username </b>
+> Create a new Network </b>
+> Edit him: 127.0.0.1/[same PORT than the ircserver] </b>
+> Put the same password than the ircserver </b>
+> Then connect </b>
 > enter "/join #channel"
 
 ### NETCAT
