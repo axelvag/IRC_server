@@ -52,11 +52,17 @@ We use two different logiciel to simulate a client:
 
 ### HEXCHAT
 > Start logiciel </b>
+
 > Enter a Nickname and Username </b>
+
 > Create a new Network </b>
+
 > Edit him: 127.0.0.1/[same PORT than the ircserver] </b>
+
 > Put the same password than the ircserver </b>
+
 > Then connect </b>
+
 > enter "/join #channel"
 
 ### NETCAT
